@@ -15,5 +15,6 @@ Over 1.3 billion people across the globe are afflicted with disabilities that ma
 #### Aleksandar Jeremic
 
 <img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/Sasha_pfp.jpg" width="400" alt="Alt text">
+My name is Aleksandar Jeremic. I am a 3rd year transfer ECE student at UCSD and my depth is Machine Learning And Controls. I enjoy playing sports, video games and spending time with my friends, I am often in Envision either distracting my friends from their work or getting distracted myself. I also TA for ECE 5 and hope this project is something I can be proud to show as a reachable goal for an undergraduate student interested in control theory. I also am interested in Devices and Material Science and am currently researching defects in magnetic tunnel junctions (MTJs)
 
 #### Syler Sylvester
