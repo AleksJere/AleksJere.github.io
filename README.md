@@ -14,5 +14,6 @@ Over 1.3 billion people across the globe are afflicted with disabilities that ma
 
 #### Aleksandar Jeremic
 
+<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/Sasha_pfp.jpg" width="400" alt="Alt text">
 
 #### Syler Sylvester
