@@ -65,6 +65,11 @@ Here we can see a multilayer system with belts.
 
 We have placed a time to finish for the design by the middle of week 6, currently Purab is working on constructing the base which is to rotate and hold all the stepper motors, Aleksandar is working on the upper arm and forearm, and Syler is working on the claw. By early week 6 we expect to have simulation of joints and then manufacture our pulley system.
 
+here is an end of week 5 gif of the arm dynamics in action on Onshape
+
+<video src="arm-dynamics - Made with Clipchamp.mp4" controls="controls" width="600" height="300">
+</video>
+
 #### Coding and Control
 
 As of week 6 we should receive a premade controller for the stepper to begin constructing our code for control, we expect ourselves to finish implementing initial simple joystick commands to motor movements before we work on inverse kinematics. We are searching for and attempting to model the base using a state space system and we are also looking at papers on inverse kinematics to make sure we are moving forward.
