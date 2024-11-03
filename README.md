@@ -67,8 +67,7 @@ We have placed a time to finish for the design by the middle of week 6, currentl
 
 here is an end of week 5 gif of the arm dynamics in action on Onshape
 
-<video src="arm-dynamics - Made with Clipchamp.mp4" controls="controls" width="600" height="300">
-</video>
+<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/arm-dynamics - Made with Clipchamp.gif" width="400" alt="Alt text">
 
 #### Coding and Control
 
