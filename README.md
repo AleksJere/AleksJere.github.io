@@ -35,6 +35,10 @@ My name is Aleksandar Jeremic. I am a 3rd year transfer ECE student at UCSD and 
 In our search to find a technique to control our stepper motors we arrived at Adin and Ming, both TAs had already constructed a robotic arm. We spoke with Adin and he recommended a company named trinamic for the stepper driver, these are high quality stepper drivers able to withstand high voltages of up to 64 volts and 4 amps continuous current. From our search we 
 landed upon the TMC 2652C-LA stepper driver. from the drivers datasheet we were able to find a breakout board for testing the driver which we modeled our PCB around. Our next step involved finding smd components and computing the right capacitor, resistor components to place on our chip along with the correct MOSFETs. Here we used the TMC 262C-LA datasheet where they provided many options for MOSFETs and we chose based on a few factors, maximum continous current, maximum gate source voltage and a MOSFET with a common footprint to make it easier to place on our PCB. We still however constructed our own footprint for our MOSFETs after running into some issues.
 
+https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_datasheet_rev1.02.pdf
+
+
+
 
 
 #### PCB
