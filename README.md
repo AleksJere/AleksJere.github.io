@@ -13,7 +13,7 @@ https://www.who.int/news-room/fact-sheets/detail/disability-and-health
 
 #### Purab Balani
 
-![IMG_3669](https://github.com/user-attachments/assets/b82b2d24-201c-4970-93d4-5a392e5ac88a)
+<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/Purab_photo.jpg" width="400" alt="Alt text">
 
 My name is Purab Balani. I am a 3rd year transfer Computer Engineering student in the ECE department focused on autonomous systems. I am currently in an autonomous systems lab and have also been part of a medical robotics lab. I also have a side project developing an autonomous go-kart with connections I have made over my few college years. Outside of academics, I love playing soccer and working out as well as hanging out with friends. I am interested in working with autonomous systems and robotics in the future integrating them together.
 
