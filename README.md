@@ -7,6 +7,8 @@
 ### Problem followed by our solution
 Over 1.3 billion people across the globe are afflicted with disabilities that make leading a normal life difficult compared to able-bodied people. More specifically, another arm or hand could make maneuvering around or reaching essentials much easier. We are considering mainly people who are affected with trauma injuries or medical conditions which leave them in wheelchairs. Our solution involves creating a mountable highly accurate robotic arm which can be placed on a counter to help these people reach higher areas in their house.  
 
+https://www.who.int/news-room/fact-sheets/detail/disability-and-health
+
 ### Team introductions
 
 #### Purab Balani
@@ -28,6 +30,16 @@ My name is Aleksandar Jeremic. I am a 3rd year transfer ECE student at UCSD and 
 
 ### Milestones and Timeline -- we should meet and agree on how to improve this im just setting a small outline with a few things
 
+#### Component Design and Selection
+
+In our search to find a technique to control our stepper motors we arrived at Adin and Ming, both TAs had already constructed a robotic arm. We spoke with Adin and he recommended a company named trinamic for the stepper driver, these are high quality stepper drivers able to withstand high voltages of up to 64 volts and 4 amps continuous current. From our search we 
+landed upon the TMC 2652C-LA stepper driver. from the drivers datasheet we were able to find a breakout board for testing the driver which we modeled our PCB around. Our next step involved finding smd components and computing the right capacitor, resistor components to place on our chip along with the correct MOSFETs. Here we used the TMC 262C-LA datasheet where they provided many options for MOSFETs and we chose based on a few factors, maximum continous current, maximum gate source voltage and a MOSFET with a common footprint to make it easier to place on our PCB. We still however constructed our own footprint for our MOSFETs after running into some issues.
+
+
+
+#### PCB
+
+For our project we constructed a PCB to connect our 
 
 #### MCAD - Onshape
 
