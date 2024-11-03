@@ -43,7 +43,7 @@ https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_data
 
 #### PCB
 
-For our project we constructed a PCB to connect our 
+For our project, we constructed a PCB to connect our stepper motor and control it. Our PCB consists of the TMC 2652C-LA stepper driver to receive and send information to the motor, a layer of decoupling and filtering capacitors to smooth out voltage fluctuations and noise, and CMOS transistors that act as switches to control the current flow through motor windings energizing phases in correct order. Our PCB also utilizes 4 layers, one for ground, one for power, and two for processing and sending signals.
 
 #### MCAD - Onshape
 
