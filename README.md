@@ -31,11 +31,16 @@ My name is Aleksandar Jeremic. I am a 3rd year transfer ECE student at UCSD and 
 
 #### MCAD - Onshape
 
-In our Timeline we have been working to construct and develop a CAD model for our arm which we can split into three parts. Our proposed design for our arm was decided upon on October 23 2024 with 2 supplemental pictures of sketches below
+In our Timeline we have been working to construct and develop a CAD model for our arm which we can split into three parts. Our proposed design for our arm was decided upon on October 23 2024 with 2 supplemental pictures of sketches below.
 
-<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/Sasha_pfp.jpg" width="400" alt="Alt text">
 
-<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/Sasha_pfp.jpg" width="400" alt="Alt text">
+Our original plan was to use servos in certain places, we quickly scrapped that idea as Adin and Ming talked to us about using steppers and we switched from a servo based on arm design to a stepper based design which has all the motors on the bottom acting with pulleys similar to a crane. Below we show the crane-like system
+
+<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/original_plan.jpg" width="400" alt="Alt text">
+
+
+
+<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/final_side_view.jpg" width="400" alt="Alt text">
 
 
 
