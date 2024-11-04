@@ -147,6 +147,7 @@ header {
     gap: 1em; /* Space between buttons */
 }
 
+/* Back Button Styling */
 .back-button {
     position: absolute;
     top: 20px;
@@ -154,10 +155,17 @@ header {
     padding: 10px 20px;
     font-size: 1.2em;
     color: white;
-    background-color: #333;
+    background-color: #e74c3c; /* Red color */
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deepened shadow */
 }
