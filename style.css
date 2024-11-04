@@ -43,7 +43,37 @@ header {
 /* Gallery Section */
 .gallery-section .gallery-grid {
     display: grid;
+
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1em;
     padding: 2em;
+}
+
+
+
+/* Styling for the buttons */
+.tab-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 1.5em; /* Bigger font size */
+    padding: 0.8em 1.5em; /* Larger padding for bigger buttons */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Center the text on the button */
+.tab-button:focus,
+.tab-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deepened shadow */
+}
+
+/* Selected or Active Tab Effect */
+.tab-button.active {
+    background-color: #333; /* Different color for active state */
+    color: white;
 }
