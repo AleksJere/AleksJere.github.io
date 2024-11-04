@@ -55,7 +55,7 @@ In our Timeline we have been working to construct and develop a CAD model for ou
 
 Our original plan was to use servos in certain places, we quickly scrapped that idea as Adin and Ming talked to us about using steppers and we switched from a servo based on arm design to a stepper based design which has all the motors on the bottom acting with pulleys similar to a crane. Below we show the crane-like system
 
-<img src="https://github.com/AleksJere/AleksJere.github.io/blob/main/Images/original_plan.jpg" width="400" alt="Alt text">
+<img src="/Images/original_plan.jpg" width="400" alt="Alt text">
 
 We continued planning out this system untill we had a conversation with Ming where he spoke about how alot of things in industry use pulleys and belts with ball bearings to transfer torque from the base to the other parts of the arm. so we switched onto that approach, here we can see the front back view with sets of rods that are connected through holes in the arms, these are connected either to exert torque or to transfer torque further along the system.
 
