@@ -21,3 +21,11 @@ window.onclick = function(event) {
 function goBack() {
     window.history.back();
 }
+
+document.getElementById("showModalBtn").onclick = function() {
+    openModal("myModal");
+};
+
+document.getElementById("showModalBtn2").onclick = function() {
+    openModal("myModal");
+};
