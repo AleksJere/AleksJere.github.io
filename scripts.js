@@ -1,3 +1,5 @@
+console.log("scripts.js loaded");
+
 document.addEventListener('DOMContentLoaded', function() {
     // Function to open a modal
     function openModal(modalId) {
