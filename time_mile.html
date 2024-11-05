@@ -14,9 +14,16 @@
 
     <main>
         <!-- Purab Balani Section -->
-        <section class="team-member">
-            <img src="/Images/Purab_photo.jpg" width="200" alt="Purab Balani" onclick="openModal('modalPurab')" class="clickable-image">
-            <h2>Purab Balani</h2>
+        <span class="glowing-button" id="showModalBtn">Click Me for More Info</span>
+    
+        <!-- Modal (hidden by default) -->
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal')">&times;</span>
+        <h2>More Information</h2>
+        <p>This is some extra content or details that appear in the modal. You can add any HTML content here, including text, images, links, etc.</p>
+        </div>
+    </div>
         </section>
 
         <!-- Aleksandar Jeremic Section -->
