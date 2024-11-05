@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
-    // Go back function for back button
+    // Back button function
     function goBack() {
         window.history.back();
     }
@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
         { btnId: 'showModalBtn8', modalId: 'modal8' },
     ];
 
-    // Attach event listeners dynamically to all milestone buttons
     milestoneButtons.forEach(button => {
         const btn = document.getElementById(button.btnId);
         if (btn) {
@@ -46,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Make functions globally accessible if needed by HTML attributes
+    // Make functions globally accessible
     window.closeModal = closeModal;
-    window.goBack = goBack;
+    window.goBack = goBack; // Make goBack globally accessible
 });
