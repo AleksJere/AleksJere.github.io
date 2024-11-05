@@ -12,53 +12,33 @@ function closeModal(modalId) {
 window.onclick = function(event) {
     const modals = document.querySelectorAll('.modal');
     modals.forEach(modal => {
-        if (event.target == modal) {
+        const modalContent = modal.querySelector('.modal-content');
+        if (event.target == modal || event.target == modalContent) {
             modal.style.display = "none";
         }
     });
 };
 
+// Go back function for back button
 function goBack() {
     window.history.back();
 }
 
-document.getElementById("showModalBtn").onclick = function() {
-    openModal("myModal");
-};
+// Attach event listeners to open modals for each milestone button
+const milestoneButtons = [
+    { btnId: 'showModalBtn1', modalId: 'modal1' },
+    { btnId: 'showModalBtn2', modalId: 'modal2' },
+    { btnId: 'showModalBtn3', modalId: 'modal3' },
+    { btnId: 'showModalBtn4', modalId: 'modal4' },
+    { btnId: 'showModalBtn5', modalId: 'modal5' },
+    { btnId: 'showModalBtn6', modalId: 'modal6' },
+    { btnId: 'showModalBtn7', modalId: 'modal7' },
+    { btnId: 'showModalBtn8', modalId: 'modal8' },
+];
 
-document.getElementById("showModalBtn2").onclick = function() {
-    openModal("myModal");
-};
-
-// Attach event listeners to each button to open their corresponding modal
-document.getElementById("showModalBtn1").onclick = function() {
-    openModal("modal1");
-};
-
-document.getElementById("showModalBtn2").onclick = function() {
-    openModal("modal2");
-};
-
-document.getElementById("showModalBtn3").onclick = function() {
-    openModal("modal3");
-};
-
-document.getElementById("showModalBtn4").onclick = function() {
-    openModal("modal4");
-};
-
-document.getElementById("showModalBtn5").onclick = function() {
-    openModal("modal5");
-};
-
-document.getElementById("showModalBtn6").onclick = function() {
-    openModal("modal6");
-};
-
-document.getElementById("showModalBtn7").onclick = function() {
-    openModal("modal7");
-};
-
-document.getElementById("showModalBtn8").onclick = function() {
-    openModal("modal8");
-};
+// Attach event listeners dynamically to all milestone buttons
+milestoneButtons.forEach(button => {
+    document.getElementById(button.btnId).onclick = function() {
+        openModal(button.modalId);
+    };
+});
