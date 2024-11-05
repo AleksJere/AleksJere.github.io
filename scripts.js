@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Make functions globally accessible
-    window.closeModal = closeModal;
+    window.openModal = openModal;  // Make openModal globally accessible
+    window.closeModal = closeModal; // Make closeModal globally accessible
     window.goBack = goBack; // Make goBack globally accessible
 });
