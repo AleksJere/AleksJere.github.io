@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <button onclick="goBack()" class="back-button">← Back</button>
+    <header>
+        <h1>Team Introduction</h1>
+    </header>
+
+    <main>
+        <!-- Purab Balani Section -->
+        <section class="team-member">
+            <img src="/Images/Purab_photo.jpg" width="200" alt="Purab Balani" onclick="openModal('modalPurab')" class="clickable-image">
+            <h2>Purab Balani</h2>
+        </section>
+
+        <!-- Aleksandar Jeremic Section -->
+        <section class="team-member">
+            <img src="/Images/Sasha_pfp.jpg" width="200" alt="Aleksandar Jeremic" onclick="openModal('modalAleksandar')" class="clickable-image">
+            <h2>Aleksandar Jeremic</h2>
+        </section>
+
+        <!-- Syler Sylvester Section -->
+        <section class="team-member">
+            <img src="/Images/Syler_photo.jpg" width="200" alt="Syler Sylvester" onclick="openModal('modalSyler')" class="clickable-image">
+            <h2>Syler Sylvester</h2>
+        </section>
+    </main>
+
+    <!-- Modal for Purab -->
+    <div id="modalPurab" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalPurab')">&times;</span>
+            <h2>Purab Balani</h2>
+            <p>My name is Purab Balani. 
+            I am a 3rd year transfer Computer Engineering student in the ECE department focused on autonomous systems. 
+            I am currently in an autonomous systems lab and have also been part of a medical robotics lab. 
+            I also have a side project developing an autonomous go-kart with connections I have made over my few college years.
+            Outside of academics, I love playing soccer and working out as well as hanging out with friends. 
+            I am interested in working with autonomous systems and robotics in the future integrating them together.</p>
+        </div>
+    </div>
+
+    <!-- Modal for Aleksandar -->
+    <div id="modalAleksandar" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalAleksandar')">&times;</span>
+            <h2>Aleksandar Jeremic</h2>
+            <p>My name is Aleksandar Jeremic. 
+            I am a 3rd year transfer ECE student at UCSD and my depth is Machine Learning And Controls.
+            I enjoy playing sports, video games and spending time with my friends, I am often in Envision either distracting my friends from their work or getting distracted myself. 
+            I also TA for ECE 5 and hope this project is something I can be proud to show as a reachable goal for an undergraduate student interested in control theory. 
+            I also am interested in Devices and Material Science and am currently researching defects in magnetic tunnel junctions (MTJs)</p>
+        </div>
+    </div>
+
+    <!-- Modal for Syler -->
+    <div id="modalSyler" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalSyler')">&times;</span>
+            <h2>Syler Sylvester</h2>
+            <p>Information about Syler Sylvester.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
