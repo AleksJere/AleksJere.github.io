@@ -76,8 +76,9 @@
             <span class="close" onclick="closeModal('modal1')">&times;</span>
             <h2>System & Components List</h2>
             <p>In our search to find a technique to control our stepper motors we arrived at Adin and Ming, both TAs had already constructed a robotic arm. We spoke with Adin and he recommended a company named trinamic for the stepper driver, these are high quality stepper drivers able to withstand high voltages of up to 64 volts and 4 amps continuous current. From our search we landed upon the TMC 2652C-LA stepper driver. from the drivers datasheet we were able to find a breakout board for testing the driver which we modeled our PCB around. Our next step involved finding smd components and computing the right capacitor, resistor components to place on our chip along with the correct MOSFETs. Here we used the TMC 262C-LA datasheet where they provided many options for MOSFETs and we chose based on a few factors, maximum continous current, maximum gate source voltage and a MOSFET with a common footprint to make it easier to place on our PCB. We still however constructed our own footprint for our MOSFETs after running into some issues.
-
-https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_datasheet_rev1.02.pdf (10/23)</p>
+<a href="https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_datasheet_rev1.02.pdf" target="_blank">
+        <button class="glowing-button">datasheet</button>
+ (10/23)</p>
         </div>
     </div>
 
@@ -86,7 +87,7 @@ https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_data
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal2')">&times;</span>
             <h2>CAD & Printing</h2>
-            <p>The arm will be 3D printed for weight considerations. Base design, arm linkages, and gripper must all be designed in CAD (11/8)</p>
+            <p>For our project, we constructed a PCB to connect our stepper motor and control it. Our PCB consists of the TMC 2652C-LA stepper driver to receive and send information to the motor, a layer of decoupling and filtering capacitors to smooth out voltage fluctuations and noise, and CMOS transistors that act as switches to control the current flow through motor windings energizing phases in correct order. Our PCB also utilizes 4 layers, one for ground, one for power, and two for processing and sending signals.(11/8)</p>
         </div>
     </div>
 
@@ -96,6 +97,7 @@ https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_data
             <span class="close" onclick="closeModal('modal3')">&times;</span>
             <h2>R&D for PCB</h2>
             <p>Significant research is necessary in our development of stepper motor driver PCBs. Schematics and datasheets for existing stepper motor drives will be referenced and modified to create our own boards (11/31)</p>
+            <img src="/Images/arm-dynamics - Made with Clipchamp.gif" width="400" alt="Alt text">
         </div>
     </div>
 
