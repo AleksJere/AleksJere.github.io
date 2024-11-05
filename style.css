@@ -19,7 +19,7 @@ body {
     border: 2px solid #ccc; /* Subtle border color by default */
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    transition: all 0.5s ease; /* Smooth transition for hover effect */
 }
 
 
