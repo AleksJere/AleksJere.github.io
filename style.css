@@ -9,7 +9,12 @@ body {
     text-align: center;
     margin: 20px;
 }
-
+.pdf-viewer {
+    width: 100%;
+    height: 500px; 
+    overflow: auto; 
+    border: 1px solid #ccc;
+}
 .glowing-button {
     display: inline-block;
     padding: 8px 16px; /* Small padding for a compact button */
@@ -20,6 +25,25 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s ease; /* Smooth transition for hover effect */
+}
+
+
+
+/* Button item (each button with text above and below) */
+.button-item {
+    text-align: center; /* Center the text and button inside each item */
+}
+
+/* Text above the button */
+.button-text-top {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* Text below the button */
+.button-text-bottom {
+    font-size: 1em;
+    margin-top: 0.5em;
 }
 
 
