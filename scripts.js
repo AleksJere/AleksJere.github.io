@@ -29,3 +29,36 @@ document.getElementById("showModalBtn").onclick = function() {
 document.getElementById("showModalBtn2").onclick = function() {
     openModal("myModal");
 };
+
+// Attach event listeners to each button to open their corresponding modal
+document.getElementById("showModalBtn1").onclick = function() {
+    openModal("modal1");
+};
+
+document.getElementById("showModalBtn2").onclick = function() {
+    openModal("modal2");
+};
+
+document.getElementById("showModalBtn3").onclick = function() {
+    openModal("modal3");
+};
+
+document.getElementById("showModalBtn4").onclick = function() {
+    openModal("modal4");
+};
+
+document.getElementById("showModalBtn5").onclick = function() {
+    openModal("modal5");
+};
+
+document.getElementById("showModalBtn6").onclick = function() {
+    openModal("modal6");
+};
+
+document.getElementById("showModalBtn7").onclick = function() {
+    openModal("modal7");
+};
+
+document.getElementById("showModalBtn8").onclick = function() {
+    openModal("modal8");
+};
