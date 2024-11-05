@@ -75,9 +75,17 @@
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal1')">&times;</span>
             <h2>System & Components List</h2>
-            <p>In our search to find a technique to control our stepper motors we arrived at Adin and Ming, both TAs had already constructed a robotic arm. We spoke with Adin and he recommended a company named trinamic for the stepper driver, these are high quality stepper drivers able to withstand high voltages of up to 64 volts and 4 amps continuous current. From our search we landed upon the TMC 2652C-LA stepper driver. from the drivers datasheet we were able to find a breakout board for testing the driver which we modeled our PCB around. Our next step involved finding smd components and computing the right capacitor, resistor components to place on our chip along with the correct MOSFETs. Here we used the TMC 262C-LA datasheet where they provided many options for MOSFETs and we chose based on a few factors, maximum continous current, maximum gate source voltage and a MOSFET with a common footprint to make it easier to place on our PCB. We still however constructed our own footprint for our MOSFETs after running into some issues.
-
-https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_datasheet_rev1.02.pdf (10/23)</p>
+            <p>In our search to find a technique to control our stepper motors we arrived at Adin and Ming, both TAs had already constructed a robotic arm.
+                We spoke with Adin and he recommended a company named trinamic for the stepper driver, 
+                these are high quality stepper drivers able to withstand high voltages of up to 64 volts and 4 amps continuous current. 
+                From our search we landed upon the TMC 2652C-LA stepper driver. from the drivers datasheet 
+                we were able to find a breakout board for testing the driver which we modeled our PCB around. 
+                Our next step involved finding smd components and computing the right capacitor, resistor components to place on our chip along with the correct MOSFETs. 
+                Here we used the TMC 262C-LA datasheet where they provided many options for MOSFETs and we chose based on a few factors, maximum continous current, 
+                maximum gate source voltage and a MOSFET with a common footprint to make it easier to place on our PCB. 
+                We still however constructed our own footprint for our MOSFETs after running into some issues.
+    <a href="https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_datasheet_rev1.02.pdf" target="_blank">datasheet here</a> (10/23).
+ (10/23)</p>
         </div>
     </div>
 
@@ -86,7 +94,26 @@ https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_data
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal2')">&times;</span>
             <h2>CAD & Printing</h2>
-            <p>The arm will be 3D printed for weight considerations. Base design, arm linkages, and gripper must all be designed in CAD (11/8)</p>
+            <p>
+In our Timeline we have been working to construct and develop a CAD model for our arm which we can split into three parts. Our proposed design for our arm was decided upon on October 23 2024 with 2 supplemental pictures of sketches below.
+
+
+Our original plan was to use servos in certain places, we quickly scrapped that idea as Adin and Ming talked to us about using steppers and we switched from a servo based on arm design to a stepper based design which has all the motors on the bottom acting with pulleys similar to a crane. Below we show the crane-like system
+<br>
+<img src="/Images/original_plan.jpg" width="400" alt="Alt text">
+<br>
+We continued planning out this system untill we had a conversation with Ming where he spoke about how alot of things in industry use pulleys and belts with ball bearings to transfer torque from the base to the other parts of the arm. so we switched onto that approach, here we can see the front back view with sets of rods that are connected through holes in the arms, these are connected either to exert torque or to transfer torque further along the system.
+<br>
+<img src="/Images/final_side_view.jpg" width="400" alt="Alt text">
+<br>
+Here we can see a multilayer system with belts.
+
+We have placed a time to finish for the design by the middle of week 6, currently Purab is working on constructing the base which is to rotate and hold all the stepper motors, Aleksandar is working on the upper arm and forearm, and Syler is working on the claw. By early week 6 we expect to have simulation of joints and then manufacture our pulley system.
+
+here is an end of week 5 gif of the arm dynamics in action on Onshape
+<br>
+<img src="/Images/arm-dynamics - Made with Clipchamp.gif" width="400" alt="Alt text"> </p>
+<br>
         </div>
     </div>
 
@@ -96,6 +123,7 @@ https://www.analog.com/media/en/technical-documentation/data-sheets/TMC262C_data
             <span class="close" onclick="closeModal('modal3')">&times;</span>
             <h2>R&D for PCB</h2>
             <p>Significant research is necessary in our development of stepper motor driver PCBs. Schematics and datasheets for existing stepper motor drives will be referenced and modified to create our own boards (11/31)</p>
+            <img src="/Images/arm-dynamics - Made with Clipchamp.gif" width="400" alt="Alt text">
         </div>
     </div>
 
