@@ -1,15 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Function to open a modal
     function openModal(modalId) {
-        document.getElementById(modalId).style.display = "block";
+        const modal = document.getElementById(modalId);
+        if (modal) {
+            modal.style.display = "block";
+        }
     }
 
     // Function to close a modal
     function closeModal(modalId) {
-        document.getElementById(modalId).style.display = "none";
+        const modal = document.getElementById(modalId);
+        if (modal) {
+            modal.style.display = "none";
+        }
     }
 
-    // Close the modal when the user clicks outside of the modal content
+    // Close the modal when clicking outside the modal content
     window.onclick = function(event) {
         const modals = document.querySelectorAll('.modal');
         modals.forEach(modal => {
@@ -19,34 +25,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
-    // Back button function
-    function goBack() {
-        window.history.back();
-    }
-
-    // Attach event listeners to open modals for each milestone button
-    const milestoneButtons = [
-        { btnId: 'showModalBtn1', modalId: 'modal1' },
-        { btnId: 'showModalBtn2', modalId: 'modal2' },
-        { btnId: 'showModalBtn3', modalId: 'modal3' },
-        { btnId: 'showModalBtn4', modalId: 'modal4' },
-        { btnId: 'showModalBtn5', modalId: 'modal5' },
-        { btnId: 'showModalBtn6', modalId: 'modal6' },
-        { btnId: 'showModalBtn7', modalId: 'modal7' },
-        { btnId: 'showModalBtn8', modalId: 'modal8' },
-    ];
-
-    milestoneButtons.forEach(button => {
-        const btn = document.getElementById(button.btnId);
-        if (btn) {
-            btn.onclick = function() {
-                openModal(button.modalId);
-            };
-        }
-    });
-
     // Make functions globally accessible
-    window.openModal = openModal;  // Make openModal globally accessible
-    window.closeModal = closeModal; // Make closeModal globally accessible
-    window.goBack = goBack; // Make goBack globally accessible
+    window.openModal = openModal;
+    window.closeModal = closeModal;
+
+    // Attach event listeners individually for each button
+    document.getElementById('showModalBtn1').onclick = function() { openModal('modal1'); };
+    document.getElementById('showModalBtn2').onclick = function() { openModal('modal2'); };
+    document.getElementById('showModalBtn3').onclick = function() { openModal('modal3'); };
+    document.getElementById('showModalBtn4').onclick = function() { openModal('modal4'); };
+    document.getElementById('showModalBtn5').onclick = function() { openModal('modal5'); };
+    document.getElementById('showModalBtn6').onclick = function() { openModal('modal6'); };
+    document.getElementById('showModalBtn7').onclick = function() { openModal('modal7'); };
+    document.getElementById('showModalBtn8').onclick = function() { openModal('modal8'); };
 });
