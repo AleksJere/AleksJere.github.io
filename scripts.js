@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.onclick = function(event) {
         const modals = document.querySelectorAll('.modal');
         modals.forEach(modal => {
-            const modalContent = modal.querySelector('.modal-content');
-            if (event.target == modal || event.target == modalContent) {
+            if (event.target === modal) {
                 modal.style.display = "none";
             }
         });
@@ -46,4 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
             };
         }
     });
+
+    // Make functions globally accessible if needed by HTML attributes
+    window.closeModal = closeModal;
+    window.goBack = goBack;
 });
