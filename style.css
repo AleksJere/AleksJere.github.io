@@ -45,6 +45,9 @@ body {
 /* Button item (each button with text above and below) */
 .button-item {
     text-align: center; /* Center the text and button inside each item */
+    margin-bottom: 20px;
+    transition: all 0.5s ease; /* Smooth transition for hover effect */
+    
 }
 
 /* Text above the button */
