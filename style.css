@@ -23,6 +23,25 @@ body {
 }
 
 
+
+/* Button item (each button with text above and below) */
+.button-item {
+    text-align: center; /* Center the text and button inside each item */
+}
+
+/* Text above the button */
+.button-text-top {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* Text below the button */
+.button-text-bottom {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+
 .glowing-button:hover {
     border-color: #4CAF50; /* Green border on hover */
     box-shadow: 0 0 10px rgba(76, 175, 80, 0.8); /* Glowing effect */
