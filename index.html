@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
     <link rel="stylesheet" href="/style.css">
+	<style>
+        /* Styles to add space at the bottom of the page */
+        body, html {
+            min-height: 100vh;
+            padding-bottom: 200px; /* Adds extra space at the bottom */
+            box-sizing: border-box;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 800px; /* Adjust width as desired */
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Optional: Add margin to the last paragraph for more spacing */
+        .main-content p:last-child {
+            margin-bottom: 50px; /* Adds space below the last paragraph */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -34,14 +55,26 @@
 		
         <p>Here we have our poster slides for our project!</p>
         <a href="https://docs.google.com/presentation/d/1uLqHj6CnNL7vYYK4w7sc5yEFfD9-8J_napIeszZ2U1k/edit?usp=sharing" target="_blank">
+        <button class="glowing-button">Poster slide</button>
+    </a>
+		    <br>
+	<p> here is our presentation slides</p>
+        <a href="https://docs.google.com/presentation/d/1ReiP0IZz2-Gu8rju0WL0_lxrrLKEd3Q5HhPu3-lJkPw/edit?usp=sharing" target="_blank">
         <button class="glowing-button">Presentation</button>
     </a>
+		    
         <p>below is a link to our video (currently a link to a video editing software)</p>
-
+	
         <a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank">
         <button class="glowing-button">Click To See Our Video</button>
 	</a>
-	    </div>
+		       <br>
+	<p> here is our storyboard</p>
+	<img src="Images/Storyboard.jpg" width="1300" alt="Video Storyboard" style="margin-top: 10px;">
+		    <p>If the text is too hard to read, we plan on having about 45 seconds on personal and project introduction, we plan on having 30 seconds for our problem statement with video overlaying showing our problem
+		    then a 30 second demo which includes one of us, and in the same scene we all move in to explain a simple way of it working and methodology, we then want a conclusion and future work which should take under 30 seconds, this video should total to under 3 minutes</p>
+      
     </main>
+	<script src="scripts.js"></script>
 </body>
 </html>
